@@ -69,7 +69,7 @@ const App = () => {
       </div>
 
       {/* Main content */}
-      <main className="flex-1 mt-4 md:mt-0 md:ml-56 px-4 py-8 z-10">
+      <main className="flex-1 mt-4 md:mt-0 px-4 py-8 z-10 md:ml-0 md:px-12 md:mx-auto">
         {sections[activeSection]}
         <Footer />
       </main>
